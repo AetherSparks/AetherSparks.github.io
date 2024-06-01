@@ -55,7 +55,7 @@ sup, .sup {
 }
 
 .rounded-image {
-  border-radius: 10px; /* Adjust the radius as needed */
+  border-radius: 100px; /* Adjust the radius as needed */
 }
 
 .section-inverse > div {
