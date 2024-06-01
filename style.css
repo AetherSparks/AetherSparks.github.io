@@ -96,6 +96,15 @@ header.p-section {
   padding: 160px 0px;
 }
 
+#company .container {
+  max-width: 80%; /* Adjust the width of the container */
+}
+
+#company .row.justify-content-center > div {
+  margin-right: 10px; /* Add spacing between the images */
+  margin-left: 10px; /* Add spacing between the images */
+}
+
 .container-lg {
   max-width: 900px;
 }
