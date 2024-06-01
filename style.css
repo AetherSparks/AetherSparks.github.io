@@ -16,6 +16,58 @@ h2, .h2 {
   font-size: 45px;
 }
 
+.p-section {
+  padding: 100px 0; /* Padding has been consolidated */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.label {
+  display: block;
+  margin-bottom: 15px;
+  color: #6c757d;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-2 {
+  flex: 0 0 16.6667%;
+  max-width: 16.6667%;
+  padding: 15px;
+}
+
+.rounded-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.px-3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
 img {
   max-width: 100%;
 }
@@ -49,15 +101,9 @@ sup, .sup {
   margin-right: auto;
 }
 
-.rounded-image {
-  width: 300px; 
-  height: auto; 
-  border-radius: 15px; 
-}
-
 .section-inverse {
   margin-top: 180px;
-  padding: 1px 0px;
+  padding: 1px 0;
 }
 
 .section-inverse > div {
@@ -85,15 +131,11 @@ sup, .sup {
 }
 
 header.p-section {
-  padding: 160px 0px 120px;
-}
-
-.p-section {
-  padding: 100px 0px;
+  padding: 160px 0 120px;
 }
 
 .p-section-lg {
-  padding: 160px 0px;
+  padding: 160px 0;
 }
 
 .container-lg {
