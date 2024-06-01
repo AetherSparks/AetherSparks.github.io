@@ -49,6 +49,12 @@ sup, .sup {
   margin-right: auto;
 }
 
+.rounded-image {
+  width: 300px; 
+  height: auto; 
+  border-radius: 15px; 
+}
+
 .section-inverse {
   margin-top: 180px;
   padding: 1px 0px;
