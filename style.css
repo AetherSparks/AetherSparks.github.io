@@ -55,7 +55,8 @@ sup, .sup {
 }
 
 img.rounded-image {
-  border-radius: 10px; /* Adjust the radius as needed */
+  border-radius: 10px;
+  max-width: 80%;
 }
 
 
